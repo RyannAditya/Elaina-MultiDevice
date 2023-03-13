@@ -1,17 +1,17 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '30'
-let sp = '35'
-let sv = '65'
+let sh = '2'
+let sn = '5'
+let ss = '10'
+let sp = '20'
+let sv = '35'
 //premium
-let ph = '5'
-let pn = '20'
-let pp = '40'
-let pv = '50'
-let ppm = '70'
+let ph = '1'
+let pn = '3'
+let pp = '7'
+let pv = '15'
+let ppm = '20'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
