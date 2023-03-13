@@ -12,7 +12,7 @@ const { generateWAMessageFromContent, proto, getMessage, generateWAMessageConten
 
 const defaultMenu = {
   before: `
-╭─────═[ *INFO USER* ]═─────⋆
+╭─────═[ INFO USER ]═─────⋆
 │╭───────────────···
 ┴│☂︎ *Name:* %name
 ⬡│☂︎ *Tag:* %tag
@@ -24,7 +24,7 @@ const defaultMenu = {
 ⬡│☂︎ *Xp:* %exp / %maxexp
 ┬│☂︎ *Total Xp:* %totalexp
 │╰────────────────···
-┠─────═[ *TODAY* ]═─────⋆
+┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
 ⬡│☂︎ *Tanggal:* %week %weton
@@ -32,7 +32,7 @@ const defaultMenu = {
 ⬡│☂︎ *Tanggal Islam:* %dateIslamic
 ┬│☂︎ *Waktu:* %time
 │╰────────────────···
-┠─────═[ *INFO BOT* ]═─────⋆
+┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
 ┴│☂︎ *Nama Bot:* %me
 ⬡│☂︎ *Mode:* %mode
@@ -46,15 +46,15 @@ const defaultMenu = {
 │╰────────────────···
 ╰──────────═┅═──────────
 
-▣──「 *INFO CMD* 」───▣
+⃝▣──「 *INFO CMD* 」───⬣
 │ *Ⓟ* = Premium
 │ *Ⓛ* = Limit
-▣────────────▣
+▣────────────⬣
 %readmore
 `.trimStart(),
-  header: '▣──「 %category 」───▣',
+  header: '⃝▣──「 %category 」───⬣',
   body: '│○ %cmd %isPremium %islimit',
-  footer: '▣───────────▣\n',
+  footer: '▣───────────⬣\n',
   after: `%c4 %me`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
@@ -258,20 +258,20 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    
    const sections = [
    {
-	title: `${htki} 𝙈𝘼𝙄𝙉 ${htka}`,
+	title: `${htki} ᴍᴀɪɴ ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} 𝙎𝙥𝙚𝙚𝙙 𝘽𝙤𝙩`, rowId: ".ping", description: "𝕸𝖊𝖓𝖆𝖒𝖕𝖎𝖑𝖐𝖆𝖓 𝕶𝖊𝖈𝖊𝖕𝖆𝖙𝖆𝖓 𝕽𝖊𝖘𝖕𝖔𝖓 𝕭𝖔𝖙"},
-	    {title: `⏰ ${pmenus} 𝙍𝙪𝙣𝙩𝙞𝙢𝙚 𝘽𝙤𝙩`, rowId: ".runtime", description: "𝕸𝖊𝖓𝖆𝖒𝖕𝖎𝖑𝖐𝖆𝖓 𝖜𝖆𝖐𝖙𝖚 𝖇𝖔𝖙 𝖇𝖊𝖗𝖏𝖆𝖑𝖆𝖓"}, 
-	    {title: `💌 ${pmenus} 𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩`, rowId: ".creator", description: "𝕸𝖊𝖓𝖆𝖒𝖕𝖎𝖑𝖐𝖆𝖓 𝖎𝖓𝖋𝖔𝖗𝖒𝖆𝖘𝖎 𝖙𝖊𝖓𝖙𝖆𝖓𝖌 𝖔𝖜𝖓𝖊𝖗"},
-	    {title: `📔 ${pmenus} 𝙎𝙘𝙧𝙞𝙥𝙩 𝘽𝙤𝙩`, rowId: ".sc", description: `𝕾𝖔𝖚𝖗𝖈𝖊 𝕮𝖔𝖉𝖊 𝖞𝖆𝖓𝖌 𝖉𝖎𝖌𝖚𝖓𝖆𝖐𝖆𝖓 𝖔𝖑𝖊𝖍 𝖇𝖔𝖙 ${namebot}`},
+	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝚁𝚎𝚜𝚙𝚘𝚗 𝙱𝙾𝚃"},
+	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚆𝚊𝚔𝚝𝚞 𝙱𝙾𝚃 𝙱𝚎𝚛𝚓𝚊𝚕𝚊𝚗"}, 
+	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
+	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
-	title: `${htki} 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ${htka}`,
+	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
 	rows: [
-	    {title: `💹 ${pmenus} 𝘿𝙤𝙣𝙖𝙩𝙚 𝙁𝙤𝙧 𝘽𝙤𝙩`, rowId: ".donasi", description: '𝕾𝖚𝖕𝖕𝖔𝖗𝖙 𝕭𝖔𝖙 𝖆𝖌𝖆𝖗 𝖙𝖊𝖙𝖆𝖕 𝖔𝖓 24/𝖏𝖆𝖒'},
+	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚠𝚗𝚎𝚛 𝙰𝚐𝚊𝚛 𝙻𝚎𝚋𝚒𝚑 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝'},
 	]
 	},{
-	title: `${htki} 𝙈𝙀𝙉𝙐 ${htka}`,
+	title: `${htki} ᴍᴇɴᴜ ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -301,27 +301,24 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   },
 ]
 
-let tek = `╭─────═[ *𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿* ]═─────⋆
-│ 
-╭───────────────···
-│ *${ucapan()} ${conn.getName(m.sender)}*
-│
-│  *Happy Using Bot*
-│ ╭────────────────···
-│⬡│ *𝘼𝙪𝙩𝙝𝙤𝙧 :* 𝘽𝙤𝙘𝙝𝙞𝙡𝙜𝙖𝙢𝙞𝙣𝙜
-│⬡│ *𝙊𝙬𝙣𝙚𝙧 :* 𝙍𝙮𝙖𝙣𝙣-
-│ ╰────────────────···
-│  📌 𝗣𝗶𝗻𝗻𝗲𝗱 : 
-│     𝘽𝙚𝙧𝙞 𝙟𝙚𝙙𝙖, 𝙟𝙖𝙣𝙜𝙖𝙣 𝙨𝙥𝙖𝙢 !
-│  ╭────────────────···
-│ ⬡│ Aktif selama : ${mpt}
-│ ⬡│ Baterai : ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│ ⬡│ Prefix : [ ${_p} ]
-│ ⬡│ *${Object.keys(global.db.data.users).length}* : Pengguna
-│ ⬡│ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* : Chat Terbanned
-│ ⬡│ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* : Pengguna Terbanned
-│  ╰────────────────··
-╰──────────═┅═──────────`
+let tek = `✧────···[ Dashboard ]···────✧
+*${ucapan()} ${conn.getName(m.sender)}*
+╭━━━━━━━━━━━━━━━━┈─✧
+┴
+│⬡ Aktif selama ${mpt}
+│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ Prefix : [ ${_p} ]
+│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+┬
+├━━━━━━━━━━━━━━━━┈─⋆
+│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
+┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
+✧
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
