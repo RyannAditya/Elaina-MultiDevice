@@ -49,33 +49,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
 global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
+global.sgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '082350496532' //Nomor Danamu
+global.ppulsa = '082350496532' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.com/jbyannstore' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281231079387' //Nomor Bot
-global.nomorown = '6285736178354' //Nomor Owner
-global.namebot = 'Elaina BOT' //Nama Bot
-global.nameown = '𝓧𝓲𝓪𝓸 - 𝓨𝓪𝓷' // Nama Owner
+global.nomorbot = '62823504965325' //Nomor Bot
+global.nomorown = '62822522851432' //Nomor Owner
+global.namebot = '𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯' //Nama Bot
+global.nameown = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285736178354', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['62822522851432', '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
-global.lolkey = 'apikeymu'
-global.xkey = 'APIKEYMU'
+global.lolkey = 'e54205a4ca2caa368cc067bb'
+global.xkey = 'ebb6251cc00f9c63'
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -90,19 +90,19 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'APIKEYMU',
+  'https://api.xteam.xyz': 'ebb6251cc00f9c63',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': '2da1fcd209f20ae428d8482f',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://violetics.pw': 'beta'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
-global.namedoc = 'Elaina`s Bot' //Main Name Menu Document
+global.wm = '                「 𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯  」' //Main Watermark
+global.wm2 = '━━━━❖ 𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯 ❖━━━━'
+global.wm3 = '⫹⫺ 𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯'
+global.namedoc = '𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
 global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -110,11 +110,11 @@ global.author = global.wm
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/26b515d170f1e599f78a7.jpg'
-global.thumbbc = 'https://telegra.ph/file/05f874dc87f7e27fa8127.jpg' //For broadcast
-global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumblvlup = 'https://telegra.ph/file/a3e66e0fa840b08236c75.jpg'
+global.thumb = 'https://telegra.ph/file/c4aea52f75207211af381.png' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/08fe94b47f0000f90d4f6.jpg'
+global.thumbbc = 'https://telegra.ph/file/08fe94b47f0000f90d4f6.jpg' //For broadcast
+global.giflogo = 'https://telegra.ph/file/91335d839dc23e5169bc3.jpg'
+global.thumblvlup = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTXdNe_pojmfP2s2YHhmEfKMYN1M17u-Z4ig&usqp=CAU'
 global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
 'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
 'https://i.pinimg.com/originals/32/2c/a4/322ca456fa2cdec4b717895a65adfa8d.jpg',
@@ -330,7 +330,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 857-3617-8354'
+global.phn = '+62 822-5228-5143'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -340,7 +340,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/c4aea52f75207211af381.png'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -354,7 +354,7 @@ global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━═┅═❏ *ღ 𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 ღ* ❏═┅═━━━┅'
+global.dashmenu = '┅━━━═┅═❏ *𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿* ❏═┅═━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊❀'                            //body
@@ -371,11 +371,11 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
+global.stickauth = `𝙍𝙮𝙖𝙣𝙕𝙭-𝙈𝙙\n⫹⫺ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘽𝙊𝙏\nwa.me/${global.nomorbot}\n⫹⫺𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙊𝙬𝙣𝙚𝙧\nwa.me/62822522851432\n\n𝙅𝙖𝙣𝙜𝙖𝙣 𝙡𝙪𝙥𝙖 𝙨𝙖𝙫𝙚 𝙮𝙖 𝙗𝙖𝙣𝙝`
+global.packname = '𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮'
+global.packname2 = '© 𝘼𝙡𝙡 𝙍𝙚𝙨𝙚𝙧𝙫𝙚𝙧𝙚𝙙 2021-2023'
 
-global.multiplier = 38 // The higher, The harder levelup
+global.multiplier = 29 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
